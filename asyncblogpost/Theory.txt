@@ -1,0 +1,37 @@
+﻿https://www.youtube.com/watch?v=MCW_eJA2FeY SImilar example: https://www.youtube.com/watch?v=gfkuD_eWM5Y
+C# 5.0 Async and Await
+
+Why you care about threading
+	At first every 6 months a new processor will be on the market and application would have plenty of resources.
+	In 2005 CPU clock speed couldn't go faster and then they changed how computers increase their processing power:
+		- on a multicore CPU we need to write parrarel application that is spread on multiple cores.
+
+		C# 4.0
+		- Defines a new threading  model using the Task class
+
+		C# 5.0
+		- Async and await
+			- a lot of magic behind the scenes and Task class needs to be udnerstood
+			- Task class is similar to thread class, it takes a delegate, it has built a lot more classes on top of it, can return values, compose, chain together.
+
+Keypoints demo1/demo2.
+
+C# 5
+Tasks are created by passing a delegate to the constructor
+	- Call Start to queue the task to the scheduler
+	- Can also use a factory
+Provices an unifying API
+	- .NET 3.5 had separate API for short and long running async work
+		- Short running work put on ThreadPool
+		- Long running spawn new thread using Thread class
+	- Task unifies API by hiting to scheduler that task is long running
+		- Current implementation long running tasks spawn own thread otherwise ThreadPool used
+
+Asynchronous events are those occuring independently of the main program flow. Asynchronous actions are actions executed in a non-blocking scheme, allowing the main program flow to continue processing.
+It introduces async and await keywords
+Together these language keywords allow us to build "normal" application with straightforward logic and yet have them to run async
+We write serial code that works async.
+
+Async vs Parell
+Part two is explained in the video and code sample not needed to reproduce
+
