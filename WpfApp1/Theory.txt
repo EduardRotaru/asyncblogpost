@@ -1,0 +1,14 @@
+﻿https://www.youtube.com/watch?v=mkkcqQlIpeQ
+
+Async programming heavily relies on threads to make it possible
+Async programming is concept running operations at the same time with the execution with the program, we are running operations concurently with other operations.
+Reasons why we use async programming is that we allow our program to run operations on the CPU in background but the UI is active and responsive.
+
+How OS keeps everything responsive:
+One processor CPU can only do one operation at one time.
+Without OS features having a single core processor handling 5 applications, it will take care to each one at the time and everything else will be frozen.
+Now every process has threads within the process, windows made Thread Scheduler that makes sure that all threads have equal time to run, keeps switching between threads to run. Every threads have priorities but all threads have the opportunity to run.
+Thread Scheduler it creates the illusions all processes are running at the same time because of the switching between threads
+
+Resource manager tool shows all the threads.
+

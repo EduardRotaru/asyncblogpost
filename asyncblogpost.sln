@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asyncblogpost", "asyncblogp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{19551B69-7780-4178-801A-F8339282FAB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{F31B4CD9-505F-4F01-958A-44CBCC130E3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroToTasks", "IntroToTasks\IntroToTasks.csproj", "{3FFE9858-BDD1-4EF7-98FB-D961E4196634}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{19551B69-7780-4178-801A-F8339282FAB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19551B69-7780-4178-801A-F8339282FAB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19551B69-7780-4178-801A-F8339282FAB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F31B4CD9-505F-4F01-958A-44CBCC130E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31B4CD9-505F-4F01-958A-44CBCC130E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31B4CD9-505F-4F01-958A-44CBCC130E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31B4CD9-505F-4F01-958A-44CBCC130E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFE9858-BDD1-4EF7-98FB-D961E4196634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFE9858-BDD1-4EF7-98FB-D961E4196634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFE9858-BDD1-4EF7-98FB-D961E4196634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFE9858-BDD1-4EF7-98FB-D961E4196634}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

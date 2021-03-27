@@ -1,0 +1,8 @@
+﻿https://www.youtube.com/watch?v=IONqMWGn9-w&t=1361s
+
+A task represents a unit of work while the main the thread continues execution.
+So this idea of Thread pool allows us to recycle through it rather than creating new threads and destroying them
+Thread pool mananges everything for us, it will create new threads if others are all active, we only request for threads.
+
+CPU bound tasks, it only works on CPU constantly
+IO bounds, things thare async some async work will be waiting for something to happen, like reading from a database. Problem we are wasting a thread from thread pool while that thread waits to get the content
